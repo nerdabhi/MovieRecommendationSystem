@@ -1,0 +1,168 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 22, 2018, 12:04:50 PM
+    Author     : SNM Boy
+*/
+
+@font-face {font-family: 'xfont';src:url('lite.ttf') format('truetype');} 
+body {
+    background: url("bg.jpg") no-repeat fixed;
+    background-size: cover;      
+}
+html,body{margin: 0;padding: 0;  font-family: xfont;}
+#nav{display: inline-block;background: rgba(255,255,255,.3);width: 100%;}
+#websitename{width: 500px;  display: inline-block;}
+#websitename>h1{ padding: 0 20px;}
+#websitename>h1>a:link,#websitename>h1>a:visited{border-radius: 12px;    color: #fff;text-decoration: none;background: chocolate;padding: 10px 20px;}
+#navRef{width: calc(100% - 520px); display: inline-block;}
+.refbox{float: right;padding: 0 25px; }
+.refbox>span,.refbox>a{padding: 5px 20px; }
+.formDiv{max-width: 300px;padding: 50px;margin: auto;}
+.formx>input[type='text']{width: 49%;}
+.formx>input[type='submit']{width: 49%;}
+input[type='text'],input[type='number'],input[type='password'],input[type='file'],input[type='email'], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type='submit'] {
+    width: 100%;
+    background-color: chocolate;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    opacity: .9;
+    background-color: chocolate;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    resize: none;
+}
+form {
+    border-radius: 5px;
+    background-color: rgba(242, 242, 242, 0.5);
+    padding: 20px;
+}
+
+table {background: rgba(255,255,255,.5);
+       border-collapse: collapse;
+       width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+th{background-color:#ff9944;}
+
+.del {padding: 0;margin: 0;}
+.del>input{margin: 0;}
+.detailbox{
+    background: rgba(255,255,255,.5);
+    display: table-cell;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;}
+.detailbox:hover {
+    background: rgba(255,255,255,.75);
+}
+.detailbox>h2{color: chocolate;}
+.detailbox>p,.detailbox>h2{margin-top: 0; }
+
+
+.d_box_cont {
+    margin: 5px;
+    display: inline-table;
+}
+.d_box_cont>div>p{    margin: 0px 0px 10px 0;}
+
+.xform{    max-width: 300px;
+           padding: 0 10px;
+           margin: auto;}
+
+.red{    background: red !important;
+         color: #fff;}
+.green{    background: green !important;
+           color: #fff;}
+.orange{    background: orange !important;
+            color: #fff;}
+
+.form_action_btn{    padding: 0 !important;
+                     display: block;
+                     margin: 0 3px;
+                     width: calc(50% - 6px);
+                     float: left;}
+
+
+
+
+.cat-ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+.cat-ul>li{
+    cursor: pointer;
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    background: rgba(255,255,255,.5);
+    border-radius: 5px;
+}
+
+.cat-ul>li:hover{background: rgba(255,255,255,.85);}
+
+#sidebar{
+    background: rgba(255,255,255,.5);
+    display: table-cell;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+
+
